@@ -1,0 +1,38 @@
+{
+  "name": "dvd",
+  "author": "Ilia Breitburg",
+  "version": "1.0.0",
+  "keywords": ["dvd"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "DVD",
+    "uuid": "1c15bc3a-edb9-4dba-b359-41efae264d59",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "menuIcon": true,
+          "type": "png",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/icon.png"
+        }
+      ]
+    }
+  }
+}
